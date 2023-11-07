@@ -17,7 +17,7 @@ type Props = {
   chartData: object[];
 };
 
-export default function ChartBox(props:Props) {
+export function ChartBox(props:Props) {
   return (
     <div>
 

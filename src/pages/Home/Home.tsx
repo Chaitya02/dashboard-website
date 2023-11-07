@@ -1,11 +1,9 @@
 
 import TopBox from '../../components/topBox/TopBox'
 import './Home.scss'
-import ChartBox from '../../components/chartBox/ChartBox'
-import { barChartBoxRevenue, chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser ,barChartBoxVisit} from '../../data'
-import BarChartBox from '../../components/barChartBox/BarChartBox'
+import {ChartBox} from '../../components/chartBox/ChartBox'
+import { chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser} from '../../data'
 import PieChartBox from '../../components/pieCardBox/PieCardBox'
-import BigChartBox from '../../components/bigChartBox/BigChartBox'
 import { useState } from 'react'
 
 // export const chartBoxUser = {
